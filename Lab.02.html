@@ -1,0 +1,82 @@
+<title> lab02.html </title>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viwerpoint" content="width=device, initial-scale=1.0">
+    <title>Lab.02</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>LANA DEL REY</h1>
+    <p>==>Real nome: Elizabeth Woolridge Grant</p>
+    <p>==>Local de nascmento: Manhattan, Nova York, EUA</p>
+    <p>==>Aniversário: 21 de junho de 1985 (39 anos)</p>
+    <p>==>Altura: 1,7 m</p>
+    <p>==>15 prémios vencidos, 45 indicações</p>
+   
+    <h2>Lana del rey em show:</h2>
+    <img src="https://i.pinimg.com/736x/f4/18/80/f41880a31905687327f5b05466d6e239.jpg" alt="Lana del rey">
+ 
+    <h2>Lista de albuns</h2>
+    <ul>
+        <li>Born to Die </li>
+        <li>Paradise</li>
+        <li>Ultraviolence</li>
+        <li>Honeymoon</li>
+        <li>Lust for Life</li>
+        <li>Norman Fucking Rockwell!</li>
+        <li>Chemtrails Over the Country Club</li>
+        <il>Blue Banisters </il>
+        <il>Did you know that there's a tunnel under Ocean Blvd</il>
+    </ul>
+
+    <h3>Outros nomes da artista</h3>
+    <ol>
+        <li>Lana Del Ray</li>
+        <li>Lizzy Grant</li>
+        <li>Sparkle Jump Rope Queen</li>
+        <li>May Jailer</li>
+    </ol>
+
+<h6>svg:</h6>
+        <svg width="100" height="100">
+            <circle cx="50" cy="50" r="40" stroke="#E6E6FA" stroke-width="4" fill="#E6E6FA" />
+        </svg>
+    
+<h6>canvas:</h6>
+    <canvas id="lilas" width="200" height="200"></canvas>
+        <script>
+            var c = document.getElementById("lilas");
+            var ctx = c.getContext("2d");
+            ctx.fillStyle = "#E6E6FA";
+            ctx.fillRect(20, 20, 150, 75);
+        </script>
+    <h4>Seus favoritos</h4>
+    <form action="/enviar_formulario" method="post"></form>
+        <label for="LDR">Um album:</label>
+        <select id="LDR" name="LDR">
+            <option value="Born to Die">Born to Die</option>
+            <option value="Paradise">Paradise</option>
+            <option value="Ultraviolence">Ultraviolence</option>
+            <option value="Honeymoon">Honeymoon</option>
+            <option value="Lust for Life">Lust for Life</option>
+            <option value="Norman Fucking Rockwell!">Norman Fucking Rockwell!</option>
+            <option value="Chemtrails Over the Country Club">Chemtrails Over the Country Club</option>
+            <option value="Blue Banisters">Blue Banisters</option>
+            <option value="Did you know that there's a tunnel under Ocean Blvd">Did you know that there's a tunnel under Ocean Blvd</option>
+            </select>
+                <label for="nome">Música:</label>
+                <input type="text" id="nome" name="nome"><br><br>
+                <label for="mensagem">Frase:</label><br>
+                <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea><br><br>
+                <input type="submit" value="Enviar">
+            </form>
+    
+    <h5>Vídeo curiosidas da LANA DEL REY<h5>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/iav0B6IyrK8?si=Poc7Q-3xLkCWwY-9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+    
+</html>
