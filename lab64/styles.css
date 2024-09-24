@@ -1,0 +1,16 @@
+body {
+    font-family: Courier, monospace;
+    padding: 20px;
+    background-color: #6699;
+    line-height: 1.6;
+}
+
+#question-container div {
+    margin-bottom: 20px;
+    text-align:start;
+    color: #7e0077aa
+}
+h1{
+    text-align: center;
+    color:#eba9eb
+}
