@@ -15,6 +15,10 @@ Para garantir isso o site nos forneceu, após o cadastro, uma chave única: 1e6e
 
 Já no CSS usamos class e outras especificações pra podermos deixar casa parte da experiencia do cliente mais agradavel.
 
-![alt text](image.png) ->informações do cliente
+![alt text](image.png) 
 
-![alt text](image-1.png) ->como as inftomações aparecem no e-mail
+->informações do cliente
+
+![alt text](image-1.png) 
+
+->como as inftomações aparecem no e-mail
