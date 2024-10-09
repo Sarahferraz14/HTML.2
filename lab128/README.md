@@ -21,4 +21,4 @@ Já no CSS usamos class e outras especificações pra podermos deixar casa parte
 
 ![alt text](image-1.png) 
 
-->como as inftomações aparecem no e-mail
+->como as infomações aparecem no e-mail
